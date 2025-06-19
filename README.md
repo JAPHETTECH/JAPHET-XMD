@@ -82,5 +82,5 @@ Our AI features use random APIs to run, so sometimes they may be down.
 
 [MIT License](https://github.com/JAPHETTECH/JAPHET-XMD/blob/main/LICENSE)
 
-Copyright (c) 2025 RAVEN-BOT 
+Copyright (C) JAPHET-XMD 2025
 
