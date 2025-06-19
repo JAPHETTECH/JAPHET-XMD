@@ -1,25 +1,25 @@
-# 𝗥𝗔𝗩𝗘𝗡-𝗕𝗢𝗧
+#𝗝𝗔𝗣𝗛𝗘𝗧-𝗫𝗠𝗗
 <div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=910&height=100&lines=HOLLA+THIS+IS+RAVEN-BOT;MULTI+DEVICE+WHATSAPP+BOT;MADE+TO+HELP+WHATSAPP+USERS;STAR+AND+FORK+THE+REPO" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=910&height=100&lines=𝗛𝗘𝗬+𝗧𝗛𝗘𝗥𝗘+𝗧𝗛𝗜𝗦+𝗜𝗦+𝗝𝗔𝗣𝗛𝗘𝗧-𝗫𝗠𝗗;𝗠𝗨𝗟𝗧𝗜+𝗗𝗘𝗩𝗜𝗖𝗘+𝗪𝗛𝗔𝗦𝗔𝗣𝗣+𝗕𝗢𝗧;𝗠𝗔𝗗𝗘+𝗧𝗢+𝗛𝗘𝗟𝗣+𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣+𝗨𝗦𝗘𝗥𝗦;𝗦𝗧𝗔𝗥+𝗔𝗡𝗗+𝗥𝗢𝗥𝗞+𝗧𝗛𝗘+𝗥𝗘𝗣𝗢" alt="Typing SVG" />
   </a>
 </p>
   
 <p align="center">
 
-[![Nick Hunter](https://github.com/HunterNick2.png?lenght=50width=50)](https://github.com/HunterNick2)
+[![Nick Hunter](https://github.com/JAPHETTECH.png?lenght=50width=50)](https://github.com/JAPHETTECH)
 </p>
 <p align="center">
-  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=d1fa02&center=true&vCenter=true&multiline=false&lines=RAVEN+WHATSAPP+BOT" alt="">
+  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=d1fa02&center=true&vCenter=true&multiline=false&lines=JAPHET+XMD+WHATSAPP+BOT" alt="">
 </p>
 <p align="center">
 <a href="#"><img title="Creator" src="https://img.shields.io/badge/Creator-𝗡𝗶𝗰𝗸_𝗛𝘂𝗻𝘁𝗲𝗿-blue.svg?style=for-the-badge&logo=github"></a>
 </p>
 <p align="center">
-<a href="https://github.com/HunterNick2?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/HunterNick2?label=Followers&style=social"></a>
-<a href="https://github.com/HunterNick2/RAVEN-BOT/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/HunterNick2/RAVEN-BOT?&style=social"></a>
-<a href="https://github.com/HunterNick2/RAVEN-BOT/network/members"><img title="Fork" src="https://img.shields.io/github/forks/HunterNick2/RAVEN-BOT?style=social"></a>
-<a href="https://github.com/HunterNick2/RAVEN-BOT/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/HunterNick2/RAVEN-BOT?label=Watching&style=social"></a>
+<a href="https://github.com/JAPHETTECH/JAPHET-XMD?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/JAPHETTECH?label=Followers&style=social"></a>
+<a href="https://github.com/JAPHETTECH/JAPHET-XMD/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/JAPHETTECH/JAPHET-XMD?&style=social"></a>
+<a href="https://github.com/JAPHETTECH/JAPHET-XMD/members"><img title="Fork" src="https://img.shields.io/github/forks/JAPHETTECH/JAPHET-XMD?style=social"></a>
+<a href="https://github.com/JAPHETTECH/JAPHET-XMD/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/JAPHETTECH/JAPHET-XMD?label=Watching&style=social"></a>
 </p>
  
 
@@ -27,7 +27,7 @@
 
 <p align="center">
 
-<a href="https://api.whatsapp.com/send?phone=254114660061&text=Hello+Raven+dev+i+need+your+Help+on..."><img src="https://img.shields.io/badge/Contact-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://api.whatsapp.com/send?phone=255613914545&text=Hello+Sir+Mr+Japhettech+dev+i+need+your+Help+on..."><img src="https://img.shields.io/badge/Contact-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
 
 ***This bot is created with the help of NodeJS and uses [Baileys](https://github.com/whiskeysockets/Baileys)***
@@ -47,13 +47,13 @@ Our AI features use random APIs to run, so sometimes they may be down.
 
 ## ` Fork this repo`
 <p align="centre">
-<a href="https://github.com/HunterNick2/RAVEN-BOT/fork"><img src="https://img.shields.io/badge/Fork%20Create-purple?style=for-the-badge&logo=github" alt="FORK RAVEN-BOT" width="160"></a>
+<a href="https://github.com/JAPHETTECH/JAPHET-XMD/fork"><img src="https://img.shields.io/badge/Fork%20Create-purple?style=for-the-badge&logo=github" alt="FORK JAPHET-XMD" width="160"></a>
 <p/>
 
   
 ## ` Pair onrender`
 <p align="centre">
-<a href="https://pairing-raven.onrender.com"><img height= "37" title="Author" src="https://img.shields.io/badge/Session-green?style=for-the-badge&logo=render"></a>
+<a href="https://japhet-xmd-pairing-code-1.onrender.com"><img height= "37" title="Author" src="https://img.shields.io/badge/Session-green?style=for-the-badge&logo=render"></a>
 <p/>
             
 
@@ -80,7 +80,7 @@ Our AI features use random APIs to run, so sometimes they may be down.
 
 ## License
 
-[MIT License](https://github.com/HunterNick2/RAVEN-BOT/blob/main/LICENSE)
+[MIT License](https://github.com/JAPHETTECH/JAPHET-XMD/blob/main/LICENSE)
 
 Copyright (c) 2025 RAVEN-BOT 
 
