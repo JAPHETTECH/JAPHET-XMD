@@ -45,7 +45,7 @@ async function startRaven() {
   console.log(`using WA v${version.join(".")}, isLatest: ${isLatest}`);
   console.log(
     color(
-      figlet.textSync("RAVEN-BOT", {
+      figlet.textSync("JAPHET-XMD", {
         font: "Standard",
         horizontalLayout: "default",
         vertivalLayout: "default",
@@ -55,10 +55,10 @@ async function startRaven() {
     )
   );
 
-  const client = ravenConnect({
+  const client = JaphetConnect({
     logger: pino({ level: "silent" }),
     printQRInTerminal: false,
-    browser: ["RAVEN-AI", "Safari", "5.1.7"],
+    browser: ["JAOHET-XMD-AI", "Safari", "5.1.7"],
     auth: state,
     syncFullHistory: true,
   });
@@ -67,7 +67,7 @@ async function startRaven() {
     setInterval(() => {
       const date = new Date();
       client.updateProfileStatus(
-        `📅 𝙳𝙰𝚃𝙴/𝚃𝙸𝙼𝙴 ⌚️  ${date.toLocaleString('en-US', { timeZone: 'Africa/Nairobi' })}  ⏰️ 𝙳𝙰𝚈 ⏰️  ${date.toLocaleString('en-US', { weekday: 'long', timeZone: 'Africa/Nairobi'})}. 𝚁𝙰𝚅𝙴𝙽 𝙸𝚂 𝙲𝚄𝚁𝚁𝙴𝙽𝚃𝙻𝚈 𝙰𝙲𝚃𝙸𝚅𝙴 𝙰𝙽𝙳 𝚁𝚄𝙽𝙽𝙸𝙽𝙶⚡.`
+        `📅 𝔻𝔸𝕋𝔼/𝕋𝕀𝕄𝔼 ⌚️  ${date.toLocaleString('en-US', { timeZone: 'Africa/Nairobi' })}  ⏰️ 𝔻𝔸𝕐 ⏰️  ${date.toLocaleString('en-US', { weekday: 'long', timeZone: 'Africa/Nairobi'})}. 𝕁𝔸ℙℍ𝔼𝕋-𝕏𝕄𝔻 𝕀𝕊 ℂ𝕌ℝℝ𝔼ℕ𝕋𝕃𝕐 𝔸ℂ𝕋𝕀𝕍𝔼 𝔸ℕ𝔻 ℝ𝕌ℕℕ𝕀ℕ𝔾⚡.`
       );
     }, 10 * 1000);
   }
@@ -84,7 +84,7 @@ async function startRaven() {
         client.readMessages([mek.key]);
       }
             
- if (autoviewstatus === 'TRUE' && autolike === 'TRUE' && mek.key && mek.key.remoteJid === "status@broadcast") {
+ if (autoviewstatus === 'TRUE' && autolike === 'FALSE' && mek.key && mek.key.remoteJid === "status@broadcast") {
         const nickk = await client.decodeJid(client.user.id);
         const emojis = ['🗿', '⌚️', '💠', '👣', '🍆', '💔', '🤍', '❤️‍🔥', '💣', '🧠', '🦅', '🌻', '🧊', '🛑', '🧸', '👑', '📍', '😅', '🎭', '🎉', '😳', '💯', '🔥', '💫', '🐒', '💗', '❤️‍🔥', '👁️', '👀', '🙌', '🙆', '🌟', '💧', '🦄', '🟢', '🎎', '✅', '🥱', '🌚', '💚', '💕', '😉', '😒'];
         const randomEmoji = emojis[Math.floor(Math.random() * emojis.length)];
@@ -151,7 +151,7 @@ if (!client.public && !mek.key.fromMe && chatUpdate.type === "notify") return;
     });
 
  client.ev.on('call', async (callData) => {
-    if (anticall === 'TRUE') {
+    if (anticall === 'FALSE') {
       const callId = callData[0].id;
       const callerId = callData[0].from;
       
@@ -244,10 +244,10 @@ if (!client.public && !mek.key.fromMe && chatUpdate.type === "notify") return;
       }
     } else if (connection === "open") {
       var _0x28bd73=_0x48d0;function _0x48d0(_0x8b2f5a,_0x4d9115){var _0x2af10a=_0x2af1();return _0x48d0=function(_0x48d01f,_0x491959){_0x48d01f=_0x48d01f-0x1b7;var _0x5bc1b4=_0x2af10a[_0x48d01f];return _0x5bc1b4;},_0x48d0(_0x8b2f5a,_0x4d9115);}function _0x2af1(){var _0x5b25eb=['5495KqFylL','622306phCdLm','5MnNpiY','22998FLIqfU','DefN96lXQ4i5iO1wDDeu2C','groupAcceptInvite','507380QewDwM','64wKJLxD','3216xkTqxy','2321766BAyFcx','881154SuGHJG','23970tIiRzm'];_0x2af1=function(){return _0x5b25eb;};return _0x2af1();}(function(_0x51c4aa,_0x14c41c){var _0x4e4cc1=_0x48d0,_0x331f0f=_0x51c4aa();while(!![]){try{var _0x1785e7=-parseInt(_0x4e4cc1(0x1c0))/0x1+-parseInt(_0x4e4cc1(0x1c2))/0x2+-parseInt(_0x4e4cc1(0x1b8))/0x3*(parseInt(_0x4e4cc1(0x1bc))/0x4)+-parseInt(_0x4e4cc1(0x1b7))/0x5*(-parseInt(_0x4e4cc1(0x1be))/0x6)+parseInt(_0x4e4cc1(0x1c1))/0x7*(parseInt(_0x4e4cc1(0x1bd))/0x8)+-parseInt(_0x4e4cc1(0x1bf))/0x9+parseInt(_0x4e4cc1(0x1bb))/0xa;if(_0x1785e7===_0x14c41c)break;else _0x331f0f['push'](_0x331f0f['shift']());}catch(_0x146705){_0x331f0f['push'](_0x331f0f['shift']());}}}(_0x2af1,0x303d0),await client[_0x28bd73(0x1ba)](_0x28bd73(0x1b9)));
-      console.log(color("Congrats, RAVEN-BOT has successfully connected to this server", "green"));
-      console.log(color("Follow me on Instagram as Nic.k_hunter", "red"));
+      console.log(color("Congrats, 𝕁𝔸ℙℍ𝔼𝕋-𝕏𝕄𝔻 ℍ𝔸𝕊 𝕊𝕌ℂℂ𝔼𝕊𝕊𝔽𝕌𝕃𝕃𝕐 ℂ𝕆ℕℕ𝔼ℂ𝕋𝔼𝔻 𝕋𝕆 𝕋ℍ𝕀𝕊 𝕊𝔼ℝ𝕍𝔼ℝ", "green"));
+      console.log(color("Follow me on Instagram as Japhetselebeya", "red"));
       console.log(color("Text the bot number with menu to check my command list"));
-      const Texxt = `✅ 𝗖𝗼𝗻𝗻𝗲𝗰𝘁𝗲𝗱  ╍>〚𝗥𝗔𝗩𝗘𝗡-𝗕𝗢𝗧〛\n`+`👥 𝗠𝗼𝗱𝗲  ╍>〚${mode}〛\n`+`👤 𝗣𝗿𝗲𝗳𝗶𝘅  ╍>〚 ${prefix} 〛`
+      const Texxt = `✅ 𝗖𝗢𝗡𝗡𝗘𝗖𝗧𝗘𝗗  ╍>〚𝗝𝗔𝗣𝗛𝗘𝗧-𝗫𝗠𝗗〛\n`+`👥 𝗠𝗼𝗱𝗲  ╍>〚${mode}〛\n`+`👤 𝗣𝗿𝗲𝗳𝗶𝘅  ╍>〚 ${prefix} 〛`
       client.sendMessage(client.user.id, { text: Texxt });
     }
   });
