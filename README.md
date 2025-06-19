@@ -1,4 +1,4 @@
-#𝗝𝗔𝗣𝗛𝗘𝗧-𝗫𝗠𝗗
+# 𝗝𝗔𝗣𝗛𝗘𝗧-𝗫𝗠𝗗
 <div align="center">
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=910&height=100&lines=𝗛𝗘𝗬+𝗧𝗛𝗘𝗥𝗘+𝗧𝗛𝗜𝗦+𝗜𝗦+𝗝𝗔𝗣𝗛𝗘𝗧-𝗫𝗠𝗗;𝗠𝗨𝗟𝗧𝗜+𝗗𝗘𝗩𝗜𝗖𝗘+𝗪𝗛𝗔𝗦𝗔𝗣𝗣+𝗕𝗢𝗧;𝗠𝗔𝗗𝗘+𝗧𝗢+𝗛𝗘𝗟𝗣+𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣+𝗨𝗦𝗘𝗥𝗦;𝗦𝗧𝗔𝗥+𝗔𝗡𝗗+𝗥𝗢𝗥𝗞+𝗧𝗛𝗘+𝗥𝗘𝗣𝗢" alt="Typing SVG" />
