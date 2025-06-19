@@ -82,5 +82,5 @@ Our AI features use random APIs to run, so sometimes they may be down.
 
 [MIT License](https://github.com/JAPHETTECH/JAPHET-XMD/blob/main/LICENSE)
 
-Copyright (C) JAPHET-XMD 2025
+Copyright (C) JAPHETTECH 2025
 
