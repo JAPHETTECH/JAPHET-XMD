@@ -16,8 +16,7 @@
   ],
   "website": "https://github.com/JAPHETTECH/JAPHET-XMD#readme",
   "repository": "https://github.com/JAPHETTECH/JAPHET-XMD.git",
-  "logo": "
-  ",
+  "logo": "https://files.catbox.moe/d0s1op.jpg",
   "success_url": "/",
   "env": {
     "PREFIX": {
@@ -26,7 +25,7 @@
 
     },
     "DEV": {
-      "description": "Put any phone numbers you want to be bot owner without + or spaces \",\" Ex: 254114660061,27849061633  ",
+      "description": "Put any phone numbers you want to be bot owner without + or spaces \",\" Ex: 255613914546,255788484546  ",
       "required": true
     },
     "ANTIDELETE": {
@@ -62,7 +61,6 @@
     },
     "ANTITAG": {
       "description": "Put TRUE if you want bot kick out unnecessary tags from a group, Not sure if its working eh!",
-      "value":FALSE",
       "required": false
     },
       "AUTOREAD": {
@@ -98,7 +96,6 @@
 },
  "ANTIBOT": {
       "description": "Input TRUE if you want bot to kick other bots from group",
-      "value":FALSE", 
       "required": false
 },
  "CODE": {
@@ -123,7 +120,6 @@
 },
  "APP_NAME": {
       "description": "Input your app name that you put above, Must be in small letters.",
-      "value":JAPHETTECH-MD",
       "required": true
 },
  "STICKER_AUTHOR": {
@@ -148,7 +144,7 @@
     },  
   "MENU_TYPE": {
       "description": "Input either VIDEO, LINK or IMAGE. This will allow bot to display different dynamic menu types",
-      "value": "IMAGE",
+      "value": "VIDEO",
       "required": false 
     },
     "AUTOLIKE_STATUS": {
