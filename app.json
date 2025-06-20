@@ -1,5 +1,5 @@
 {
-  "name": "RAVEN-BOT",
+  "name": "JAPHET-XMD",
   "description": "A simple yet complicated WhatsApp bot, ♤Enjoy♡",
   "keywords": [
     "bot",
@@ -14,13 +14,14 @@
     "baileys-md",
     "md-bot"
   ],
-  "website": "https://github.com/HunterNick2/RAVEN-BOT#readme",
-  "repository": "https://github.com/HunterNick2/RAVEN-BOT.git",
-  "logo": "https://files.catbox.moe/duv8ac.jpg",
+  "website": "https://github.com/JAPHETTECH/JAPHET-XMD#readme",
+  "repository": "https://github.com/JAPHETTECH/JAPHET-XMD.git",
+  "logo": "
+  ",
   "success_url": "/",
   "env": {
     "PREFIX": {
-      "description": "Prefix of RAVEN-BOT Ex: . , / , # , & etc. Put any symbol or leave it blank",
+      "description": "Prefix of JAPHET-XMD Ex: . , / , # , & etc. Put any symbol or leave it blank",
       "required": false
 
     },
@@ -30,14 +31,14 @@
     },
     "ANTIDELETE": {
       "description": "Input TRUE if you want bot to foward back deleted messages. The messages will be fowarded to your Pm, Message yourself.",
-      "value": "TRUE",
+      "value": "FALSE",
       "required": false
     },
     
     
     "AUTOREJECT_CALL": {
       "description": "Put TRUE if you want bot to decline all incoming calls",
-      "value": "TRUE",
+      "value": "FALSE",
       "required": false
     },
     "ANTIFOREIGN": {
@@ -47,7 +48,7 @@
     },
     "HEROKU_API": {
       "description": "Put a Heroku api key here, will be required to update vars in your Dm",
-      "required": true
+      "required": FALSE 
     },
     "BAD_WORD": {
       "description": "List words separated witj commas that will be considered as bad and will trigger bot to kick. Example: fuck, pussy, hoe",
@@ -61,6 +62,7 @@
     },
     "ANTITAG": {
       "description": "Put TRUE if you want bot kick out unnecessary tags from a group, Not sure if its working eh!",
+      "value":FALSE",
       "required": false
     },
       "AUTOREAD": {
@@ -75,7 +77,7 @@
 },
  "WA_PRESENCE": {
       "description": "Input either recording, typing, online, or leave it blank. This enables bot to simulate typing or recording or online status even if you're not online.",
-      "value": "recording",
+      "value": "typing",
       "required": true
 },
  "WELCOMEGOODBYE": {
@@ -96,15 +98,16 @@
 },
  "ANTIBOT": {
       "description": "Input TRUE if you want bot to kick other bots from group",
+      "value":FALSE", 
       "required": false
 },
  "CODE": {
-      "description": "Input you country code here without + eg 254, it Will be used to Eliminate foreigners from the group once prompted.",
-      "value": "254",
+      "description": "INPUT YOUR COUNTRY CODE HERE WITHOUT + eg 255, it Will be used to Eliminate foreigners from the group once prompted.",
+      "value": "255",
       "required": true
 },
  "SESSION": {
-      "description": "Paste your Session id you received after linking here, as it is required for authenticationn. important!",
+      "description": "PASTE YOUR SESSION ID YOU RECEIVED AFTER LINKING HERE, AS IT IS REQUIRED FOR AUTHENTICATIONN, ITS IMPORTANT!",
       "required": true
 },
  "MODE": {
@@ -120,25 +123,27 @@
 },
  "APP_NAME": {
       "description": "Input your app name that you put above, Must be in small letters.",
+      "value":JAPHETTECH-MD",
       "required": true
 },
  "STICKER_AUTHOR": {
       "description": "Input sticker data for author",
-      "value": "RAVEN-BOT",
+      "value": "JAPHET-XMD",
       "required": false
 },
  "STICKER_PACKNAME": {
       "description": "Input sticker data for packname",
-      "value": "RAVEN-BOT",
+      "value": "JAPHET-XMD",
       "required": false
 },
  "GPT_INBOX": {
       "description": "Input TRUE if you want bot to autoreply inbox messages using openai API. For now not stable may cause spam!",
+      "value":FALSE",
       "required": false
 },
   "MENU_LINK": {
       "description": "Paste your Image Url here or use the default one, This will display it on your menu if you set MENU_TYPE as IMAGE.",
-      "value": "https://files.catbox.moe/duv8ac.jpg",
+      "value": "",
       "required": false 
     },  
   "MENU_TYPE": {
@@ -148,7 +153,7 @@
     },
     "AUTOLIKE_STATUS": {
       "description": "input TRUE if you want bot to autolike status updates. This will only work if autostatus view is TRUE",
-      "value": "TRUE",
+      "value": "FALSE",
       "required": false
     }
   },
