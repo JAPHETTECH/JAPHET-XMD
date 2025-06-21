@@ -47,7 +47,7 @@
     },
     "HEROKU_API": {
       "description": "Put a Heroku api key here, will be required to update vars in your Dm",
-      "required": FALSE 
+      "required"
     },
     "BAD_WORD": {
       "description": "List words separated witj commas that will be considered as bad and will trigger bot to kick. Example: fuck, pussy, hoe",
@@ -134,7 +134,6 @@
 },
  "GPT_INBOX": {
       "description": "Input TRUE if you want bot to autoreply inbox messages using openai API. For now not stable may cause spam!",
-      "value":FALSE",
       "required": false
 },
   "MENU_LINK": {
