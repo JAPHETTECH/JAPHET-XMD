@@ -39,7 +39,7 @@ const color = (text, color) => {
 
 authenticationn();
 
-async function startRaven() {
+async function startJaphettech() {
   const { state, saveCreds } = await useMultiFileAuthState("session");
   const { version, isLatest } = await fetchLatestBaileysVersion();
   console.log(`using WA v${version.join(".")}, isLatest: ${isLatest}`);
