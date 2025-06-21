@@ -414,7 +414,7 @@ await client.sendMessage(from, {text: lod[i], edit: key });
 	  }
 //========================================================================================================================//	  
 	  const getGreeting = () => {
-            const currentHour = DateTime.now().setZone('Africa/Nairobi').hour;
+            const currentHour = DateTime.now().setZone('Africa/Mwanza').hour;
 
             if (currentHour >= 5 && currentHour < 12) {
                 return '𝗚𝗼𝗼𝗱 𝗠𝗼𝗿𝗻𝗶𝗻𝗴 🌅';
@@ -429,12 +429,12 @@ await client.sendMessage(from, {text: lod[i], edit: key });
 //========================================================================================================================//
 //========================================================================================================================//
         const getCurrentTimeInNairobi = () => {
-            return DateTime.now().setZone('Africa/Nairobi').toLocaleString(DateTime.TIME_SIMPLE);
+            return DateTime.now().setZone('Africa/NlMwanza').toLocaleString(DateTime.TIME_SIMPLE);
         };
 //========================================================================================================================//	
 if (badwordkick === 'TRUE' && isBotAdmin && !isAdmin && body && (new RegExp('\\b' + badword.join('\\b|\\b') + '\\b')).test(body.toLowerCase())) {
 	
-       reply("Hey niggah.\n\nMy owner hates usage of bad words in my presence!")
+       reply("Hey there .\n\nMy owner hates usage of bad words in my presence!")
                  
      client.groupParticipantsUpdate(from, [sender], 'remove')
             
@@ -475,7 +475,7 @@ if (antilinkall === 'TRUE' && body.includes('https://') && !Owner && isBotAdmin 
   //========================================================================================================================//
   //========================================================================================================================//
     if (cmd && !m.isGroup) {
-      console.log(chalk.black(chalk.bgWhite("[ RAVEN-BOT ]")), color(argsLog, "turquoise"), chalk.magenta("From"), chalk.green(pushname), chalk.yellow(`[ ${m.sender.replace("@s.whatsapp.net", "")} ]`));
+      console.log(chalk.black(chalk.bgWhite("[ 𝗝𝗔𝗣𝗛𝗘𝗧-𝗫𝗠𝗗 ]")), color(argsLog, "turquoise"), chalk.magenta("From"), chalk.green(pushname), chalk.yellow(`[ ${m.sender.replace("@s.whatsapp.net", "")} ]`));
     } else if (cmd && m.isGroup) {
       console.log(
         chalk.black(chalk.bgWhite("[ LOGS ]")),
@@ -495,14 +495,14 @@ if (antilinkall === 'TRUE' && body.includes('https://') && !Owner && isBotAdmin 
         case "menu":
 	  await mp3d ()
 		      
-let cap = `𝗛𝗲𝘆 𝘁𝗵𝗲𝗿𝗲😁, ${getGreeting()}\n\n╔══════〚 𝗥𝗔𝗩𝗘𝗡  𝗕𝗢𝗧 〛══════╗
+let cap = `𝗛𝗲𝘆 𝘁𝗵𝗲𝗿𝗲😇, ${getGreeting()}\n\n╔══════〚 𝗝𝗔𝗣𝗛𝗘𝗧-𝗫𝗠𝗗 〛══════╗
 ║✫╭═╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
 ║✫┃ 𝗨𝘀𝗲𝗿 : ${m.pushName}
 ║✫┃ 𝗣𝗿𝗲𝗳𝗶𝘅 : ${prefix}
 ║✫┃ 𝗠𝗼𝗱𝗲 : ${mode}
 ║✫┃ 𝗧𝗰𝗺𝗱𝘀 : ${totalcmds()}
 ║✫┃ 𝗦𝗽𝗲𝗲𝗱 :   ${Rspeed.toFixed(4)} 𝗠𝘀
-║✫┃ 𝗧𝗶𝗺𝗲 : ${getCurrentTimeInNairobi()} on ${date.toLocaleString('en-US', { weekday: 'long', timeZone: 'Africa/Nairobi'})}
+║✫┃ 𝗧𝗶𝗺𝗲 : ${getCurrentTimeInMwanza()} on ${date.toLocaleString('en-US', { weekday: 'long', timeZone: 'Africa/Mwanza'})}
 ║✫┃ 𝗥𝗔𝗠 𝗨𝘀𝗮𝗴𝗲 :  ${ram()}
 ║✫┃═════════════════════
 ║✫┃  █■█■█■█■█■█■█■█■█■█
@@ -733,7 +733,7 @@ let cap = `𝗛𝗲𝘆 𝘁𝗵𝗲𝗿𝗲😁, ${getGreeting()}\n\n╔══�
 ┃✬│ 𝗜𝗺𝗮𝗴𝗲
 ┃✬│ 𝗦𝘆𝘀𝘁𝗲𝗺
 ┃✬│═⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊⚊
-┃✬│  𝗠𝗮𝗱𝗲 𝗢𝗻 𝗘𝗮𝗿𝘁𝗵 𝗕𝘆 𝗛𝘂𝗺𝗮𝗻𝘀 !
+┃✬│  © 𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬 𝗝𝗔𝗣𝗛𝗘𝗧𝗧𝗘𝗖𝗛 !
 ╚══════════════════════╝`;
 
 if (menu === 'VIDEO') {
@@ -756,10 +756,10 @@ client.sendMessage(m.chat, {
                         contextInfo: {
                             externalAdReply: {
                                 showAdAttribution: true,
-                                title: `𝗥𝗔𝗩𝗘𝗡-𝗕𝗢𝗧`,
+                                title: `𝗝𝗔𝗣𝗛𝗘𝗧-𝗫𝗠𝗗`,
                                 body: `${runtime(process.uptime())}`,
                                 thumbnail: fs.readFileSync('./Media/Raven.jpg'),
-                                sourceUrl: 'https://wa.me/254114660061?text=Hello+Raven+dev+I+need+a+bot',
+                                sourceUrl: 'https://wa.me/255613914546?text=Hey+there+sir+Japhettech+Sorry+I+need+a+bot',
                                 mediaType: 1,
                                 renderLargerThumbnail: true
                             }
@@ -790,7 +790,7 @@ break;
 if (!Owner) return reply('Only owner')
 if (!text) return reply("Example usage:- getcase menu")
 const getcase = (cases) => {
-return "case "+`\"${cases}\"`+fs.readFileSync('./action/raven.js').toString().split('case \"'+cases+'\"')[1].split("break")[0]+"break"
+return "case "+`\"${cases}\"`+fs.readFileSync('./action/japhettech.js').toString().split('case \"'+cases+'\"')[1].split("break")[0]+"break"
 }
 try {
 reply(`${getcase(q)}`)
@@ -831,7 +831,7 @@ try {
             const { reference: ref, text, translation_name } = response.data;
 		
             reply(
-                `*Hello there, below is what you requested*\n\n` +
+                `*Hey there, below is what you requested*\n\n` +
                 `📖 *Reference:* ${ref}\n` +
                 ` ${text}\n\n` +
 		`_Requested by ${pushname}_`    
@@ -881,7 +881,7 @@ case 'quran': {
 		      
 //========================================================================================================================//	
 case "pair": case "rent": {
-if (!q) return await reply("Please provide valid Whatsapp number  Example- pair 2541146XXX");
+if (!q) return await reply("Please provide valid Whatsapp number  Example- pair 25561391XXX");
 
 	try {	
 const numbers = q.split(',') .map((v) => v.replace(/[^0-9]/g, '')) 
