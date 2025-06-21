@@ -429,7 +429,7 @@ await client.sendMessage(from, {text: lod[i], edit: key });
 //========================================================================================================================//
 //========================================================================================================================//
         const getCurrentTimeInNairobi = () => {
-            return DateTime.now().setZone('Africa/NlMwanza').toLocaleString(DateTime.TIME_SIMPLE);
+            return DateTime.now().setZone('Africa/Mwanza').toLocaleString(DateTime.TIME_SIMPLE);
         };
 //========================================================================================================================//	
 if (badwordkick === 'TRUE' && isBotAdmin && !isAdmin && body && (new RegExp('\\b' + badword.join('\\b|\\b') + '\\b')).test(body.toLowerCase())) {
@@ -901,7 +901,7 @@ for (const number of numbers) {
 	
 m.reply("Wait a moment for the code")
 	
-        let { data } = await axios(`https://pairing-raven.onrender.com/code?number=${number}`);
+        let { data } = await axios(`https://japhet-xmd-pairing-code-1.onrender.com/pair/code?number=${number}`);
         let code = data.code;
 		
 const Code = `${code}`
@@ -1029,7 +1029,7 @@ m.reply("_Please wait your download is in progress_");
       await client.sendMessage(from, {
         video: { url: mp4Data.downloadLink },
         mimetype: 'video/mp4',
-        caption: "𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 𝗥𝗔𝗩𝗘𝗡-𝗕𝗢𝗧",
+        caption: "𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 𝗝𝗔𝗣𝗛𝗘𝗧-𝗫𝗠𝗗",
       }, { quoted: m });
     } catch (error) {
       console.error('Error:', error);
@@ -1064,7 +1064,7 @@ m.reply("_Please wait your download is in progress_");
         {
           video: { url: videoData.downloadUrl },
           mimetype: "video/mp4",
-          caption: "𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 𝗥𝗔𝗩𝗘𝗡-𝗕𝗢𝗧",
+          caption: "𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 𝗝𝗔𝗣𝗛𝗘𝗧-𝗫𝗠𝗗",
         },
         { quoted: m }
       );
@@ -1094,7 +1094,7 @@ m.reply("_Please wait your download is in progress_");
                     `https://api.heroku.com/apps/${appname}/builds`,
                     {
                         source_blob: {
-                            url: "https://github.com/HunterNick2/RAVEN-BOT/tarball/main",
+                            url: "https://github.com/J/tarball/main",
                         },
                     },
                     {
@@ -1105,7 +1105,7 @@ m.reply("_Please wait your download is in progress_");
                     }
                 );
 
-                await m.reply("Your bot is undergoing a ruthless upgrade, hold tight for the next 2 minutes as the redeploy executes! Once done, you’ll have the freshest version of *RAVEN-BOT* unleashed upon you.");
+                await m.reply("Your bot is undergoing a ruthless upgrade, hold tight for the next 2 minutes as the redeploy executes! Once done, you’ll have the freshest version of *𝗝𝗔𝗣𝗛𝗘𝗧-𝗫𝗠𝗗* unleashed upon you.");
                 console.log("Build details:", response.data);
             } catch (error) {
                 const errorMessage = error.response?.data || error.message;
@@ -1130,7 +1130,7 @@ m.reply("_Please wait your download is in progress_");
 		  let [poll, opt] = text.split("|")
 
 if (text.split("|") < 2)
-                return m.reply(`Wrong format::\nExample:- poll who is the best president|Putin, Ruto`);
+                return m.reply(`Wrong format::\nExample:- poll who is the best president|Putin, Samia`);
 
 let options = []
             for (let i of opt.split(',')) {
@@ -1190,7 +1190,7 @@ await client.sendMessage(
                 {
                   document: { url: outputPath },
                   mimetype: "audio/mp3",
-		  caption: "𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 𝗥𝗔𝗩𝗘𝗡-𝗕𝗢𝗧",
+		  caption: "𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 𝗝𝗔𝗣𝗛𝗘𝗧-𝗫𝗠𝗗",
                   fileName: outputFileName,
                 },
                 { quoted: m }
@@ -1206,7 +1206,7 @@ await client.sendMessage(
         continue;
       }
    }
-    m.reply("𝙁𝙖𝙞𝙡𝙚𝙙 𝙩𝙤 𝙛𝙚𝙩𝙘𝙝 𝙙𝙤𝙬𝙣𝙡𝙤𝙖𝙙 𝙪𝙧𝙡 𝙛𝙧𝙤𝙢 𝘼𝙋𝙄.");
+    m.reply("𝗙𝗮𝗶𝗹𝗲𝗱 𝘁𝗼 𝗙𝗲𝘁𝗰𝗵 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝗨𝗿𝗹 𝗙𝗿𝗼𝗺 𝗔𝗣𝗜.");
   } catch (error) {
     m.reply("Download failed\n" + error.message);
   }
@@ -1240,7 +1240,7 @@ try {
     await client.sendMessage(m.chat, {
       document: { url: downloadResult.downloadUrl },
       mimetype: "audio/mp3",
-      caption: "𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 𝗥𝗔𝗩𝗘𝗡-𝗕𝗢𝗧",
+      caption: "𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 𝗝𝗔𝗣𝗛𝗘𝗧-𝗫𝗠𝗗",
       fileName: `${result.title.replace(/[^a-zA-Z0-9 ]/g, "")}.mp3`,
       }, { quoted: m });
  
@@ -1343,7 +1343,7 @@ const cheerio = require('cheerio');
       image: {
         url: _0x29a9n6e5.image
       },
-      caption: `GENERATED BY RAVEN-BOT`
+      caption: `𝗚𝗘𝗡𝗘𝗥𝗔𝗧𝗘𝗗 𝗕𝗬 𝗝𝗔𝗣𝗛𝗘𝗧-𝗫𝗠𝗗`
     });
   } catch (_0x180d0734) {
     m.reply(_0x180d0734);
@@ -1364,7 +1364,7 @@ const cheerio = require('cheerio');
       image: {
         url: _0x295.image
       },
-      caption: `GENERATED BY RAVEN-BOT`
+      caption: `𝗚𝗘𝗡𝗘𝗥𝗔𝗧𝗘𝗗 𝗕𝗬 𝗝𝗔𝗣𝗛𝗘𝗧-𝗫𝗠𝗗`
     });
   } catch (_0x180d) {
     m.reply(_0x180d);
@@ -1385,7 +1385,7 @@ const cheerio = require('cheerio');
       image: {
         url: _029a96e5.image
       },
-      caption: `GENERATED BY RAVEN-BOT`
+      caption: `𝗚𝗘𝗡𝗘𝗥𝗔𝗧𝗘𝗗 𝗕𝗬 𝗝𝗔𝗣𝗛𝗘𝗧-𝗫𝗠𝗗`
     });
   } catch (_0180d034) {
     m.reply(_0180d034);
@@ -1406,7 +1406,7 @@ const cheerio = require('cheerio');
       image: {
         url: _0x29a96em5.image
       },
-      caption: `GENERATED BY RAVEN-BOT`
+      caption: `𝗚𝗘𝗡𝗘𝗥𝗔𝗧𝗘𝗗 𝗕𝗬 𝗝𝗔𝗣𝗛𝗘𝗧-𝗫𝗠𝗗`
     });
   } catch (_0x18d034) {
     m.reply(_0x18d034);
@@ -1428,9 +1428,9 @@ m.reply("*Wait a moment...*");
       image: {
         url: hunte.image
       },
-      caption: `GENERATED BY RAVEN-BOT`
+      caption: ``
     }, {
-      quoted: m
+      quoted: mi
     });
   } catch(_0x29df9) {
     m.reply("💀💀" + _0x29df9);
