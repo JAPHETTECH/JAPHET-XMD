@@ -95,7 +95,7 @@ async function startJaphettech() {
             
 if (!client.public && !mek.key.fromMe && chatUpdate.type === "notify") return;
       let m = smsg(client, mek, store);
-      const raven = require("../action/raven");
+      const japhet = require("../action/jahettech");
       raven(client, m, chatUpdate, store);
     } catch (err) {
       console.log(err);
