@@ -2808,14 +2808,14 @@ m.reply("An error occured.")
         mimetype: 'audio/mp4',
         ptt: true,
         waveform:  [100, 0, 100, 0, 100, 0, 100],
-        fileName: "𝗥𝗮𝘃𝗲𝗻",
+        fileName: "𝗝𝗔𝗣𝗛𝗘𝗧-𝗫𝗠𝗗",
 
         contextInfo: {
           mentionedJid: [m.sender],
           externalAdReply: {
           title: "𝗛𝗶 𝗛𝘂𝗺𝗮𝗻👋, 𝗜 𝗮𝗺 𝗔𝗹𝗶𝘃𝗲 𝗻𝗼𝘄",
           body: "𝗝𝗔𝗣𝗛𝗘𝗧-𝗫𝗠𝗗",
-          thumbnailUrl: "https://files.catbox.moe/7f98vp.jpg",
+          thumbnailUrl: "https://files.catbox.moe/d7q4ap",
           sourceUrl: '',
           mediaType: 1,
           renderLargerThumbnail: true
@@ -2829,13 +2829,13 @@ m.reply("An error occured.")
 	case "removebg": {
 try {
 
-const cap = "𝗘𝗱𝗶𝘁𝗲𝗱 𝗯𝘆 𝗥𝗔𝗩𝗘𝗡-𝗕𝗢𝗧";
+const cap = "𝗘𝗱𝗶𝘁𝗲𝗱 𝗯𝘆 𝗝𝗔𝗣𝗛𝗘𝗧-𝗫𝗠𝗗";
 if (!m.quoted) return m.reply("Send the image then tag it with the command.");
 if (!/image/.test(mime)) return m.reply("That is not an image, try again while quoting an actual image.");             
 
 let fdr = await client.downloadAndSaveMediaMessage(m.quoted)
 let fta = await uploadToCatbox(fdr)
-                    m.reply("𝗔 𝗺𝗼𝗺𝗲𝗻𝘁, 𝗥𝗮𝘃𝗲𝗻 𝗶𝘀 𝗲𝗿𝗮𝘀𝗶𝗻𝗴 𝘁𝗵𝗲 𝗯𝗮𝗰𝗸𝗴𝗿𝗼𝘂𝗻𝗱. . .");
+                    m.reply("𝗔 𝗺𝗼𝗺𝗲𝗻𝘁, 𝗝𝗔𝗣𝗛𝗘𝗧-𝗫𝗠𝗗 𝗶𝘀 𝗲𝗿𝗮𝘀𝗶𝗻𝗴 𝘁𝗵𝗲 𝗯𝗮𝗰𝗸𝗴𝗿𝗼𝘂𝗻𝗱. . .");
 
 const image = `https://api.dreaded.site/api/removebg?imageurl=${fta}`
 await client.sendMessage(m.chat, { image: { url: image }, caption: cap}, {quoted: m });
@@ -2968,7 +2968,7 @@ let xf = m.quoted.text;
 
                 const {
                     quote
-                } = require('./lib/ravenquotely.js')
+                } = require('./lib/japhetquotely.js')
                 
                 let pppuser = await client.profilePictureUrl(m.sender, 'image').catch(_ => 'https://telegra.ph/file/75272825615a4dcb69526.png')
                 
@@ -2976,7 +2976,7 @@ const rel = await quote(xf, pushname, pppuser)
                 
                 client.sendImageAsSticker(m.chat, rel.result, m, {
                     packname: pushname,
-                    author: `RavenBot`
+                    author: `𝗝𝗔𝗣𝗛𝗘𝗧-𝗫𝗠𝗗`
                 })
 
 } catch (errr) { 
@@ -3192,7 +3192,7 @@ break;
 //========================================================================================================================//		      
   case "system": 
   
-              client.sendMessage(m.chat, { image: { url: 'https://files.catbox.moe/duv8ac.jpg' }, caption:`*𝐁𝐎𝐓 𝐍𝐀𝐌𝐄: 𝗥𝗔𝗩𝗘𝗡-𝗕𝗢𝗧*\n\n*𝐒𝐏𝐄𝐄𝐃: ${Rspeed.toFixed(4)} 𝐌𝐒*\n\n*𝐑𝐔𝐍𝐓𝐈𝐌𝐄: ${runtime(process.uptime())}*\n\n*𝐏𝐋𝐀𝐓𝐅𝐎𝐑𝐌: 𝗛𝗲𝗿𝗼𝗸𝘂*\n\n*𝐇𝐎𝐒𝐓𝐍𝐀𝐌𝐄: 𝗥𝗮𝘃𝗲𝗻*\n\n*𝐋𝐈𝐁𝐑𝐀𝐑𝐘: Baileys*\n\n𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑: 𝗡𝗶𝗰𝗸༆`}); 
+              client.sendMessage(m.chat, { image: { url: 'https://files.catbox.moe/d7q4ap' }, caption:`*𝐁𝐎𝐓 𝐍𝐀𝐌𝐄:𝗝𝗔𝗣𝗛𝗘𝗧-𝗫𝗠𝗗*\n\n*𝐒𝐏𝐄𝐄𝐃: ${Rspeed.toFixed(4)} 𝐌𝐒*\n\n*𝐑𝐔𝐍𝐓𝐈𝐌𝐄: ${runtime(process.uptime())}*\n\n*𝐏𝐋𝐀𝐓𝐅𝐎𝐑𝐌: 𝗛𝗲𝗿𝗼𝗸𝘂*\n\n*𝐇𝐎𝐒𝐓𝐍𝐀𝐌𝐄: 𝗝𝗔𝗣𝗛𝗘𝗧*\n\n*𝐋𝐈𝐁𝐑𝐀𝐑𝐘: Baileys*\n\n𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑: 𝗝𝗮𝗽𝗵𝗲𝘁𝘁𝗲𝗰𝗵`}); 
  break;
 
 //========================================================================================================================//		      
@@ -3212,7 +3212,7 @@ for (let a of gcdata.participants) {
 
 let cont = './contacts.vcf'
 
-await m.reply('𝗔 𝗺𝗼𝗺𝗲𝗻𝘁, 𝗥𝗮𝘃𝗲𝗻 𝗶𝘀 𝗖𝗼𝗺𝗽𝗶𝗹𝗶𝗻𝗴 '+gcdata.participants.length+' 𝗖𝗼𝗻𝘁𝗮𝗰𝘁𝘀 𝗶𝗻𝘁𝗼 𝗮 𝗩𝗰𝗳...');
+await m.reply('𝗔 𝗺𝗼𝗺𝗲𝗻𝘁, 𝗝𝗔𝗣𝗛𝗘𝗧-𝗫𝗠𝗗 𝗶𝘀 𝗖𝗼𝗺𝗽𝗶𝗹𝗶𝗻𝗴 '+gcdata.participants.length+' 𝗖𝗼𝗻𝘁𝗮𝗰𝘁𝘀 𝗶𝗻𝘁𝗼 𝗮 𝗩𝗰𝗳...');
 await fs.writeFileSync(cont, vcard.trim())
 await client.sendMessage(m.chat, {
     document: fs.readFileSync(cont), mimetype: 'text/vcard', fileName: 'Group contacts.vcf', caption: 'VCF for '+gcdata.subject+'\n'+gcdata.participants.length+' contacts'
@@ -3233,7 +3233,7 @@ case "faker": {
       if (_0x2f8982.length == 0) {
         return m.reply("𝙽𝚘 𝚏𝚊𝚔𝚎 𝙰𝚌𝚌𝚘𝚞𝚗𝚝𝚜 𝚍𝚎𝚝𝚎𝚌𝚝𝚎𝚍.");
       }
-      let _0x2d7d67 = `𝚁𝚊𝚟𝚎𝚗 𝚑𝚊𝚜 𝚍𝚎𝚝𝚎𝚌𝚝𝚎𝚍 𝚝𝚑𝚎 𝚏𝚘𝚕𝚕𝚘𝚠𝚒𝚗𝚐 ${_0x2f8982.length} 𝙵𝚊𝚔𝚎 𝚊𝚌𝚌𝚘𝚞𝚗𝚝𝚜 𝚒𝚗 𝚝𝚑𝚒𝚜 𝚐𝚛𝚘𝚞𝚙:- \n`;
+      let _0x2d7d67 = `𝙹𝚊𝚙𝚑𝚎𝚝𝚝𝚎𝚌𝚑 𝚑𝚊𝚜 𝚍𝚎𝚝𝚎𝚌𝚝𝚎𝚍 𝚝𝚑𝚎 𝚏𝚘𝚕𝚕𝚘𝚠𝚒𝚗𝚐 ${_0x2f8982.length} 𝙵𝚊𝚔𝚎 𝚊𝚌𝚌𝚘𝚞𝚗𝚝𝚜 𝚒𝚗 𝚝𝚑𝚒𝚜 𝚐𝚛𝚘𝚞𝚙:- \n`;
       for (let _0x28761c of _0x2f8982) {
         _0x2d7d67 += `🚮 @${_0x28761c.split("@")[0]}\n`;
       }
@@ -3247,7 +3247,7 @@ case "faker": {
     } else if (args[0] == "-x") {
       setTimeout(() => {
         client.sendMessage(m.chat, {
-          text: `𝙽𝚘𝚠 𝚁𝚊𝚟𝚎𝚗 𝚠𝚒𝚕𝚕 𝚛𝚎𝚖𝚘𝚟𝚎 ${_0x2f8982.length} 𝙵𝚊𝚔𝚎 𝙰𝚌𝚌𝚘𝚞𝚗𝚝𝚜 𝚏𝚛𝚘𝚖 𝚝𝚑𝚒𝚜 𝚐𝚛𝚘𝚞𝚙.\n\n𝙶𝚘𝚘𝚍𝚋𝚢𝚎👋 𝙵𝚊𝚔𝚎 𝚙𝚎𝚘𝚙𝚕𝚎.`
+          text: `𝙽𝚘𝚠 𝙹𝚊𝚙𝚑𝚎𝚝-𝚡𝚖𝚍 𝚠𝚒𝚕𝚕 𝚛𝚎𝚖𝚘𝚟𝚎 ${_0x2f8982.length} 𝙵𝚊𝚔𝚎 𝙰𝚌𝚌𝚘𝚞𝚗𝚝𝚜 𝚏𝚛𝚘𝚖 𝚝𝚑𝚒𝚜 𝚐𝚛𝚘𝚞𝚙.\n\n𝙶𝚘𝚘𝚍𝚋𝚢𝚎👋 𝙵𝚊𝚔𝚎 𝚙𝚎𝚘𝚙𝚕𝚎.`
         }, {
           quoted: m
         });
@@ -3290,7 +3290,7 @@ const fta = await uploadToCatbox(fdr);
 
 const imagelink = `https://aemt.me/hacker2?link=${fta}`;
 
-await client.sendMessage(m.chat, { image: { url: imagelink}, caption: "Converted by Raven! 🦄"}, { quoted: m});
+await client.sendMessage(m.chat, { image: { url: imagelink}, caption: "Converted by Japhet! 🦄"}, { quoted: m});
 
 }
   break;
@@ -3332,7 +3332,7 @@ const messages = data.messages;
         } catch (error) {
             console.error('𝗢𝗼𝗽𝘀 𝗘𝗿𝗿𝗼𝗿!');
 
-            return m.reply('𝗦𝗼𝗺𝗲𝘁𝗵𝗶𝗻𝗴 𝗶𝘀 𝘄𝗿𝗼𝗻𝗴!');
+            return m.reply('𝗦𝗼𝗺𝗲𝘁𝗵𝗶𝗻𝗴 𝘄𝗲𝗻𝘁 𝘄𝗿𝗼𝗻𝗴!');
         }
         }
          break;
@@ -3438,7 +3438,7 @@ m.reply("𝗣𝗲𝗻𝗱𝗶𝗻𝗴 𝗣𝗮𝗿𝘁𝗶𝗰𝗶𝗽𝗮𝗻�
      });  
      let baseUR = "/apps/" + appname;  
      let h9 = await heroku.get(baseUR + '/config-vars');  
-     let stoy = '*𝗕𝗲𝗹𝗼𝘄 𝗔𝗿𝗲 𝗛𝗲𝗿𝗼𝗸𝘂 𝗩𝗮𝗿𝗶𝗮𝗯𝗹𝗲𝘀 𝗙𝗼𝗿 𝗥𝗔𝗩𝗘𝗡-𝗠𝗗:*\n\n';  
+     let stoy = '*𝗕𝗲𝗹𝗼𝘄 𝗔𝗿𝗲 𝗛𝗲𝗿𝗼𝗸𝘂 𝗩𝗮𝗿𝗶𝗮𝗯𝗹𝗲𝘀 𝗙𝗼𝗿 𝗝𝗔𝗣𝗛𝗘𝗧-𝗫𝗠𝗗:*\n\n';  
      for ( vrt in h9) { // Added 'const' to declare 'vr' 
          stoy += vrt + '=' + h9[vrt] + '\n\n'; // Fixed variable name 'str' to 'sto' 
      }  
@@ -3466,7 +3466,7 @@ case "remove": case "kick": {
         let users = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : null;
         const parts = users.split('@')[0];
 
-if (users == "254114660061@s.whatsapp.net") return m.reply("It's an Owner Number! 😡");
+if (users == "255613914546@s.whatsapp.net") return m.reply("It's an Owner Number! 😡");
 
 	  if (users  == client.decodeJid(client.user.id)) throw 'I cannot remove Myself 😡';
 
@@ -3512,7 +3512,7 @@ await client.sendMessage(m.chat, {
       await client.sendMessage(m.chat, {
         video: { url: videoUrl },
         mimetype: "video/mp4",
-        caption: "𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 𝗥𝗔𝗩𝗘𝗡-𝗕𝗢𝗧"
+        caption: "𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 𝗝𝗔𝗣𝗛𝗘𝗧-𝗫𝗠𝗗"
       },{ quoted: m });
     }
   } catch (error) {
@@ -3546,7 +3546,7 @@ try {
 
 	await client.sendMessage(m.chat, {
               video: { url: video_hd },
-              caption: "𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 𝗥𝗔𝗩𝗘𝗡-𝗕𝗢𝗧"
+              caption: "𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 𝗝𝗔𝗣𝗛𝗘𝗧-𝗫𝗠𝗗"
             }, { quoted: m });
 
 	} catch (error) {
@@ -3587,7 +3587,7 @@ await client.sendMessage(m.chat, {
             m.chat,
             {
                 video: { url: fbvid },
-                caption: "𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 𝗥𝗔𝗩𝗘𝗡-𝗕𝗢𝗧",
+                caption: "𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 𝗝𝗔𝗣𝗛𝗘𝗧-𝗫𝗠𝗗",
                 gifPlayback: false,
             },
             { quoted: m }
@@ -3630,7 +3630,7 @@ await client.sendMessage(m.chat, {
 
       await client.sendMessage(m.chat, {
         video: { url: videoUrl },
-        caption: "𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 𝗥𝗔𝗩𝗘𝗡-𝗕𝗢𝗧",
+        caption: "𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 𝗝𝗔𝗣𝗛𝗘𝗧-𝗫𝗠𝗗 ",
         gifPlayback: false
       }, { quoted: m });
 
@@ -3665,7 +3665,7 @@ try {
         }
 
         const media = response.data.BK9;
-        const capp = `𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 𝗥𝗔𝗩𝗘𝗡-𝗕𝗢𝗧`;
+        const capp = `𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 𝗝𝗔𝗣𝗛𝗘𝗧-𝗫𝗠𝗗`;
 
 if (media.length > 0) {
             const videoUrl = media.find(item => item.url.includes('.mp4'))?.url;
@@ -3830,7 +3830,7 @@ break;
 //========================================================================================================================//		      
  case 'sc': case 'script': case 'repo':
 
- client.sendMessage(m.chat, { image: { url: `https://telegra.ph/file/416c3ae0cfe59be8db011.jpg` }, caption: ` Hello👋 *${pushname}*, 𝗕𝗲𝗹𝗼𝘄 𝗶𝘀 𝗥𝗔𝗩𝗘𝗡-𝗕𝗢𝗧 𝗴𝗶𝘁𝗵𝘂𝗯 𝗿𝗲𝗽𝗼𓅂\n\nFork and maybe give us a star🌟.\n\n https://github.com/HunterNick2/RAVEN-BOT\n\nLink with your whatsapp using pairing link below\n\nhttps://pairing-raven.onrender.com\n\nCopy the session and paste it on the SESSION string, Fill in the other required Variables before Deploy\n\nEnjoy and have fun with the Bot\n\n𝗠𝗮𝗱𝗲 𝗼𝗻 𝗲𝗮𝗿𝘁𝗵 𝗯𝘆 𝗛𝘂𝗺𝗮𝗻𝘀 !`},{quoted : m });
+ client.sendMessage(m.chat, { image: { url: `https://telegra.ph/file/416c3ae0cfe59be8db011.jpg` }, caption: ` Hello👋 *${pushname}*, 𝗕𝗲𝗹𝗼𝘄 𝗶𝘀 𝗝𝗔𝗣𝗛𝗘𝗧-𝗫𝗠𝗗 𝗴𝗶𝘁𝗵𝘂𝗯 𝗿𝗲𝗽𝗼𓅂\n\nFork and maybe give us a star🌟.\n\n https://github.com/JAPHETTECH/JAPHET-XMD\n\nLink with your whatsapp using pairing link below\n\nhttps://japhet-xmd-pairing-code-1.onrender.com/pair\n\nCopy the session and paste it on the SESSION string, Fill in the other required Variables before Deploy\n\nEnjoy and have fun with the Bot\n\n © 𝗠𝗔𝗗𝗘 𝗕𝗬 𝗝𝗔𝗣𝗛𝗘𝗧𝗧𝗘𝗖𝗛  !`},{quoted : m });
 
    break;
                                                   
@@ -4026,7 +4026,7 @@ if (!m.isGroup) throw group;
           case "leave": { 
                  if (!Owner) throw NotOwner;
 		 if (!m.isGroup) throw group;
- await client.sendMessage(m.chat, { text : '𝗚𝗼𝗼𝗱𝗯𝘆𝗲 𝗲𝘃𝗲𝗿𝘆𝗼𝗻𝗲👋. 𝗥𝗮𝘃𝗲𝗻-𝗔𝗶 𝗶𝘀 𝗟𝗲𝗮𝘃𝗶𝗻𝗴 𝘁𝗵𝗲 𝗚𝗿𝗼𝘂𝗽 𝗻𝗼𝘄...' , mentions: participants.map(a => a.id)}, { quoted : m }); 
+ await client.sendMessage(m.chat, { text : '𝗚𝗼𝗼𝗱𝗯𝘆𝗲 𝗲𝘃𝗲𝗿𝘆𝗼𝗻𝗲👋. 𝗝𝗔𝗣𝗛𝗘𝗧-𝗫𝗠𝗗 𝗔𝗜 𝗶𝘀 𝗟𝗲𝗮𝘃𝗶𝗻𝗴 𝘁𝗵𝗲 𝗚𝗿𝗼𝘂𝗽 𝗻𝗼𝘄...' , mentions: participants.map(a => a.id)}, { quoted : m }); 
                  await client.groupLeave(m.chat); 
   
              } 
@@ -4203,7 +4203,7 @@ if (!m.quoted) return m.reply("Hurrahhh")
     if (quotedMessage.videoMessage) {
       let videoCaption = quotedMessage.videoMessage.caption;
       let videoUrl = await client.downloadAndSaveMediaMessage(quotedMessage.videoMessage);
-      client.sendMessage(client.user.id, { video: { url: videoUrl }, caption: `Retrieved by Raven!\n${videoCaption}`}, { quoted: m });
+      client.sendMessage(client.user.id, { video: { url: videoUrl }, caption: `Retrieved by Japhettech!\n${videoCaption}`}, { quoted: m });
     }
       }
 	break;
@@ -4321,7 +4321,7 @@ if (!text) return m.reply("𝗣𝗿𝗼𝘃𝗶𝗱𝗲 𝗮 𝘃𝗮𝗹𝗶�
                 {
                   document: { url: outputPath },
                   mimetype: "audio/mp3",
-		  caption: "𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 𝗥𝗔𝗩𝗘𝗡-𝗕𝗢𝗧",
+		  caption: "𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 𝗝𝗔𝗣𝗛𝗘𝗧-𝗫𝗠𝗗",
                   fileName: outputFileName,
                 },
                 { quoted: m }
@@ -4384,7 +4384,7 @@ if (!text) return m.reply("𝗣𝗿𝗼𝘃𝗶𝗱𝗲 𝗮 𝘃𝗮𝗹𝗶�
         {
           video: { url: videoData.downloadUrl },
           mimetype: "video/mp4",
-          caption: "𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 𝗥𝗔𝗩𝗘𝗡-𝗕𝗢𝗧",
+          caption: "𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 𝗝𝗔𝗣𝗛𝗘𝗧-𝗫𝗠𝗗",
         },
         { quoted: m }
       );
@@ -4423,10 +4423,10 @@ if (!text) return m.reply("𝗣𝗿𝗼𝘃𝗶𝗱𝗲 𝗮 𝘃𝗮𝗹𝗶�
                     contextInfo: {
                         externalAdReply: {
                             showAdAttribution: true,
-                            title: '𝗥𝗔𝗩𝗘𝗡-𝗕𝗢𝗧',
-                            body: 'https://github.com/HunterNick2/RAVEN-BOT',
-                            thumbnailUrl: 'https://files.catbox.moe/duv8ac.jpg',
-                            sourceUrl: 'https://github.com/HunterNick2/RAVEN-BOT',
+                            title: '𝗝𝗔𝗣𝗛𝗘𝗧-𝗫𝗠𝗗',
+                            body: 'https://github.com/JAPHETTECH/JAPHET-XMD',
+                            thumbnailUrl: 'https://files.catbox.moe/d7q4ap',
+                            sourceUrl: 'https://github.com/JAPHETTECH/JAPHET-XMD,
                             mediaType: 1,
                             renderLargerThumbnail: true
                         }
@@ -4450,7 +4450,7 @@ if (!text) return m.reply("𝗣𝗿𝗼𝘃𝗶𝗱𝗲 𝗮 𝘃𝗮𝗹𝗶�
                 mimetype: "application/vnd.android.package-archive",
                 contextInfo: {
         externalAdReply: {
-          title: `RAVEN-BOT`,
+          title: `𝗝𝗔𝗣𝗛𝗘𝗧-𝗫𝗠𝗗`,
           body: `${tylor.BK9.name}`,
           thumbnailUrl: `${tylor.BK9.icon}`,
           sourceUrl: `${tylor.BK9.dllink}`,
@@ -4575,7 +4575,7 @@ if (!text) return m.reply("No emojis provided ? ")
               let fids = await axios.get(`http://www.omdbapi.com/?apikey=742b2d09&t=${text}&plot=full`);  
               let imdbt = "";  
               console.log(fids.data)  
-              imdbt += "⚍⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚍\n" + " ``` IMDB MOVIE SEARCH```\n" + "⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎\n";  
+              imdbt += "⚍⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚍\n" + " ``` JAPHET-XMD MOVIE SEARCH```\n" + "⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎⚎\n";  
               imdbt += "🎬Title      : " + fids.data.Title + "\n";  
               imdbt += "📅Year       : " + fids.data.Year + "\n";  
               imdbt += "⭐Rated      : " + fids.data.Rated + "\n";  
@@ -4701,7 +4701,7 @@ case "block": {
  if (!Owner) throw NotOwner; 
  if (!m.quoted) throw `𝗧𝗮𝗴 𝘀𝗼𝗺𝗲𝗼𝗻𝗲!`  
  let users = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '')+'@s.whatsapp.net'
-	 if (users == "254114660061@s.whatsapp.net") return m.reply("𝗜 𝗰𝗮𝗻𝗻𝗼𝘁 𝗯𝗹𝗼𝗰𝗸 𝗺𝘆 𝗢𝘄𝗻𝗲𝗿 😡");
+	 if (users == "255613914546@s.whatsapp.net") return m.reply("𝗜 𝗰𝗮𝗻𝗻𝗼𝘁 𝗯𝗹𝗼𝗰𝗸 𝗺𝘆 𝗢𝘄𝗻𝗲𝗿 😡");
 		  if (users  == client.decodeJid(client.user.id)) throw '𝗜 𝗰𝗮𝗻𝗻𝗼𝘁 𝗯𝗹𝗼𝗰𝗸 𝗺𝘆𝘀𝗲𝗹𝗳 𝗶𝗱𝗶𝗼𝘁 😡';
  await client.updateBlockStatus(users, 'block'); 
  m.reply (`𝗕𝗹𝗼𝗰𝗸𝗲𝗱 𝘀𝘂𝗰𝗰𝗲𝘀𝗳𝘂𝗹𝗹𝘆!`); 
@@ -4780,7 +4780,7 @@ let ts = await convertTimestamp(info.creation);
 try {
         pp = await client.profilePictureUrl(chat, 'image');
       } catch {
-        pp = 'https://files.catbox.moe/duv8ac.jpg';
+        pp = 'https://files.catbox.moe/d7q4ap';
       }
 
 await client.sendMessage(m.chat, { image: { url: pp }, 
